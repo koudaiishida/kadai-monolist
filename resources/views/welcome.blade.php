@@ -4,8 +4,10 @@
     <div class="cover">
         <div class="cover-inner">
             <div class="cover-contents">
-                <h1>the place for you to discover amazing things</h1>
-                <a href="" class="btn btn-success btn-lg">START MONOLIST</a>
+                <h1>THE PLACE FOR YOU TO DISCOVER AMAZING THINGS</h1>
+                @if (!Auth::check())
+                <a href="{{route('signup.get')}}" class="btn btn-success btn-lg">START MONOLIST</a>
+                @endif
             </div>
         </div>
     </div>
