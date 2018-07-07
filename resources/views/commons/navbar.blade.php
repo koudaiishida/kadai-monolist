@@ -14,7 +14,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     @if (Auth::check())
                         <li>
-                            <a href="#">
+                            <a href="{{route('items.create')}}">
                                 <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
                                 ADD A NEW ITEM
                               </a>
@@ -43,7 +43,7 @@
                     @else
                     
                     <li><a href="{{route('signup.get')}}">REGISTER</a></li>
-                    <li><a href="{{route('login')">LOGIN</a></li>
+                    <li><a href="{{route('login')}}">LOGIN</a></li>
                     
                     @endif
                 </ul>
