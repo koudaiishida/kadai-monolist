@@ -22,4 +22,24 @@ class Item extends Model
     {
         return $this->users()->where('type', 'have');
     }
+    
+    
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }

@@ -22,7 +22,7 @@
                         </div>
                         @if (isset($item->count))
                             <div class="panel-footer">
-                                <p class="text-center">No.{{ $key+1 }} : {{ $item->count }} WANTS</p>
+                                <p class="text-center">No.{{ $key+1 }} : {{ $item->count }} HAVES</p>
                             </div>
                         @endif
                     </div>

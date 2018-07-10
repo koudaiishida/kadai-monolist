@@ -19,6 +19,19 @@
                                 ADD A NEW ITEM
                               </a>
                         </li>
+                        
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                <span class="glyphicon glyphicon-signal" aria-hidden="true"></span>
+                                RANKING
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="{{ route('ranking.want') }}">WANT RANKING</a></li>
+                                <li><a href="{{ route('ranking.have') }}">HAVE RANKING</a></li>
+                            </ul>
+                        </li>
+
 
                     <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
